@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style type="text/css">
+    * {
+        box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
+    }
+    .main_pannel{
+        width : 600px;
+        height : 800px;
+        background-color: #f1f1f1;
+        font-family: "Lucida Console", Courier, monospace;
+    }
+    .header {
+        padding : 30px;
+        margin: 5px;
+        text-align: center;
+        background-color: lightpink;
+        color:gray;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 190px;
+    }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+</style>
+</head>
+<body>
+    <div class="main_pannel">
+        <div class="header">
+           <h1>Gallery</h1>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./images/home_image.jpeg">
+                <img src="./images/home_image.jpeg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>  
+        <div class="gallery">
+            <a target="_blank" href="./images/home_image.jpeg">
+                <img src="./images/home_image.jpeg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>    
+        <div class="gallery">
+            <a target="_blank" href="./images/home_image.jpeg">
+                <img src="./images/home_image.jpeg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>   
+    </div>  
+</body>
+</html>
