@@ -6,6 +6,10 @@
     * {
         box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
     }
+    @font-face {
+        font-family: ink_free;
+        src: url(./fonts/Inkfree.ttf);
+    }
     .main_pannel{
         width : 600px;
         height : 800px;
@@ -22,13 +26,15 @@
 
     .profile_img{
         border-radius: 100%;
+        width: 200px;
+        height : 200px;
         margin : 10px;
         float: left;
     }
     .profile_list{
         width: 60%;
         float: left;
-
+        font-family: ink_free;
         list-style-type: none;
     }
 
@@ -42,12 +48,12 @@
         </div>
         <div class="pannel_content">
             <div class="inner_pannel">
-                <img class="profile_img" src = "./images/home_image.jpeg" alt="home_image" width="200" height="200"/>
+                <img class="profile_img" src = "./images/profile_img.JPG" alt="home_image"/>
                 <ul class="profile_list">
-                    <li>이름</li>
-                    <li>나이</li>
-                    <li>성별</li>
-                    <li>사는곳</li>
+                    <li>Name</li>
+                    <li>Age</li>
+                    <li>Gender</li>
+                    <li>Location</li>
                 </ul>
             </div>
         </div>
