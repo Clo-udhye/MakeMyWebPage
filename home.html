@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style type="text/css">
+    * {
+         box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
+    }
+    .main_pannel{
+        width : 600px;
+        height : 800px;
+        background-color: #f1f1f1;
+    }
+    .header {
+        padding : 30px;
+        margin: 5px;
+        text-align: center;
+        background-color: lightpink;
+        color:gray;
+    }
+    .home_img{
+        float:left;
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 72%;
+    }
+    .menubar{
+        background-color: lightgray;
+        text-align: left;
+        font-size: 20px;
+        float: right;
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 25%;
+        height: 600px;
+        padding-top : 50px;
+    }
+    .menubar ul{
+        list-style-type: none;
+    }
+    .menubar a{ 
+        display: block;
+        text-decoration: none;
+    }
+  
+    .menubar a:visited{
+        color:black;
+    }
+    .menubar a:link {
+        color:black;
+    }
+    .menubar a:hover {
+        background-color: lightpink;
+        color: gray;
+    }
+    
+
+ 
+</style>
+</head>
+<body>
+    <script type="text/javascript"></script>
+    <div class="main_pannel">
+        <div class="header">
+            <h1>My Webpage</h1>
+        </div>
+        <div>
+            <img class="home_img" src = "./images/home_image.jpeg" alt="home_image" width="400"/>
+            <div class="menubar">
+                <a href="http://192.168.0.14:8080/project01/profile.html">&nbsp;&nbsp;&nbsp;&nbsp;Profile</a>
+                <a href="http://192.168.0.14:8080/project01/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact</a>
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;menu2</a>  
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;menu3</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style type="text/css">
+    * {
+        box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
+    }
+    .main_pannel{
+        width : 600px;
+        height : 800px;
+        background-color: #f1f1f1;
+    }
+    .header {
+        padding : 30px;
+        margin: 5px;
+        text-align: center;
+        background-color: lightpink;
+        color:gray;
+    }
+
+    .profile_img{
+        border-radius: 100%;
+        margin : 10px;
+        float: left;
+    }
+    .profile_list{
+        width: 60%;
+        float: left;
+
+        list-style-type: none;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="main_pannel">
+        <div class="header">
+           <h1>My Profile</h1>
+        </div>
+        <div class="pannel_content">
+            <div class="inner_pannel">
+                <img class="profile_img" src = "./images/home_image.jpeg" alt="home_image" width="200" height="200"/>
+                <ul class="profile_list">
+                    <li>이름</li>
+                    <li>나이</li>
+                    <li>성별</li>
+                    <li>사는곳</li>
+                </ul>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

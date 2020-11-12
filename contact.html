@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style type="text/css">
+    * {
+        box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
+    }
+    .main_pannel{
+        width : 600px;
+        height : 800px;
+        background-color: #f1f1f1;
+    }
+    .header {
+        padding : 30px;
+        margin: 5px;
+        text-align: center;
+        background-color: lightpink;
+        color:gray;
+    }
+    .pannel_content{
+       padding:20px;
+    }
+    .mail_img img{
+        width : 110px;
+        padding : 10px;
+    }
+    .mail_img span{
+        font-size: 15px;
+        font-family: "Lucida Console", Courier, monospace;
+    }
+    .contact_img:hover{
+        opacity: 0.5;
+    }
+    .contact_img{
+        width:110px;
+        padding : 10px;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <div class="main_pannel">
+        <div class="header">
+           <h1>Contact</h1>
+        </div>
+        <div class="pannel_content">
+            <div class="mail_img">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/naver_img.png" />
+                        </td>
+                        <td>
+                            <span>clo_udye@naver.com</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/kakaotalk_img.png" />
+                        </td>
+                        <td>
+                            <span>ID : 08dh28 </span>
+                        </td>
+                    </tr>
+
+                </table>
+            </div> 
+            <a href="https://www.instagram.com/clo_udhye/"><img class="contact_img" src="./images/instagram_img.png" /></a>
+            <a href="https://github.com/Clo-udhye"><img class="contact_img" src="images/github_img.png" /></a>
+        </div>
+    </div>  
+</body>
+</html>
