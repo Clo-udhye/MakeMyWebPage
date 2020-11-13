@@ -2,13 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <style type="text/css">
     * {
          box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
     }
     .main_pannel{
-        width : 600px;
-        height : 800px;
+        width : 580px;
+        height : 780px;
         background-color: #f1f1f1;
         font-family: "Lucida Console", Courier, monospace;
     }
@@ -16,14 +18,18 @@
         padding : 30px;
         margin: 5px;
         text-align: center;
-        background-color: lightpink;
+        background-color: pink;
         color:gray;
     }
     .home_img{
         float:left;
         margin-top: 5px;
         margin-left: 5px;
-        width: 72%;
+        width: 100%;
+    }
+    .img_section{
+        width : 72%;
+        float: left;
     }
     .menubar{
         background-color: lightgray;
@@ -66,12 +72,14 @@
             <h1>Home</h1>
         </div>
         <div>
-            <img class="home_img" src = "./images/home_img.jpeg" alt="home_img"/>
+            <div class="img_section">
+                <img class="home_img" src = "./images/home_img2.jpg" alt="home_img"/>
+                <img class="home_img" src = "./images/home_img1.jpeg" alt="home_img"/>
+            </div>
             <div class="menubar">
-                <a href="http://127.0.0.1:8080/project01/profile.html">&nbsp;&nbsp;&nbsp;&nbsp;Profile</a>
-                <a href="http://127.0.0.1:8080/project01/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact</a>
-                <a href="http://127.0.0.1:8080/project01/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;Gallery</a>  
-                <a href="http://127.0.0.1:8080/project01/mini_game.html"></ahref>&nbsp;&nbsp;&nbsp;&nbsp;Game</a>
+                <a href="./profile.html">&nbsp;&nbsp;&nbsp;&nbsp;Profile</a>
+                <a href="./contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact</a>
+                <a href="./gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;Gallery</a>  
                 </ul>
             </div>
         </div>

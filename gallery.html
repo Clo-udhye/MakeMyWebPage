@@ -2,21 +2,40 @@
 <html>
 <head>
 <meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <style type="text/css">
     * {
         box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
     }
     .main_pannel{
-        width : 600px;
-        height : 800px;
+        width : 580px;
+        height : 780px;
         background-color: #f1f1f1;
         font-family: "Lucida Console", Courier, monospace;
+    }
+    #go_home{
+        float : right;
+        text-decoration: none;
+    }
+    #go_home :hover{
+        color : gray;
+    }
+    #go_home :link {
+        color: darkgray;
+    }
+    #go_home:visited{
+        color: darkgray;
+    }
+    #go_home i{
+        font-size: 20px;
     }
     .header {
         padding : 30px;
         margin: 5px;
         text-align: center;
-        background-color: lightpink;
+        background-color: pink;
         color:gray;
     }
     
@@ -29,7 +48,7 @@
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
-        width: 190px;
+        width: 31.57%;
     }
 
 div.gallery:hover {
@@ -37,8 +56,10 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+  width: 100%   ;
+  height: 100px;
+  
+            
 }
 
 
@@ -47,26 +68,63 @@ div.gallery img {
 <body>
     <div class="main_pannel">
         <div class="header">
-           <h1>Gallery</h1>
+            <a id="go_home" href="./home.html"><i  class="fas fa-home"></i></a>
+            <h1>Gallery</h1>
         </div>
         <div class="gallery">
-            <a target="_blank" href="./images/home_img.jpeg">
-                <img src="./images/home_img.jpeg" alt="Picture1">
+            <a target="_blank" href="./images/gallery_img1.jpg">
+                <img src="./images/gallery_img1.jpg" alt="Picture1">
             </a>
               <div class="desc">Add a description of the image here</div>
         </div>  
         <div class="gallery">
-            <a target="_blank" href="./images/home_img.jpeg">
-                <img src="./images/home_img.jpeg" alt="Picture1">
+            <a target="_blank" href="./images/gallery_img2.jpg">
+                <img src="./images/gallery_img2.jpg" alt="Picture1">
             </a>
               <div class="desc">Add a description of the image here</div>
         </div>    
         <div class="gallery">
-            <a target="_blank" href="./images/home_img.jpeg">
-                <img src="./images/home_img.jpeg" alt="Picture1">
+            <a target="_blank" href="./images/gallery_img3.jpg">
+                <img src="./images/gallery_img3.jpg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./images/gallery_img4.jpg">
+                <img src="./images/gallery_img4.jpg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>  
+        <div class="gallery">
+            <a target="_blank" href="./images/gallery_img5.jpg">
+                <img src="./images/gallery_img5.jpg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>    
+        <div class="gallery">
+            <a target="_blank" href="./images/gallery_img6.jpg">
+                <img src="./images/gallery_img6.jpg" alt="Picture1">
             </a>
               <div class="desc">Add a description of the image here</div>
         </div>   
+        <div class="gallery">
+            <a target="_blank" href="./images/gallery_img7.jpg">
+                <img src="./images/gallery_img7.jpg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>  
+        <div class="gallery">
+            <a target="_blank" href="./images/gallery_img8.jpg">
+                <img src="./images/gallery_img8.jpg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>    
+        <div class="gallery">
+            <a target="_blank" href="./images/gallery_img9.jpg">
+                <img src="./images/gallery_img9.jpg" alt="Picture1">
+            </a>
+              <div class="desc">Add a description of the image here</div>
+        </div>      
     </div>  
 </body>
 </html>
