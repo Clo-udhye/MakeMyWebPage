@@ -9,11 +9,16 @@
     * {
         box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
     }
-    .main_pannel{
-        width : 580px;
-        height : 780px;
+    body{
         background-color: #f1f1f1;
         font-family: "Lucida Console", Courier, monospace;
+    }
+    .header {
+        padding: 5vw;  
+        text-align: center;
+        font-size: 5vw;
+        background-color: pink;
+        color:gray;
     }
     #go_home{
         float : right;
@@ -29,38 +34,32 @@
         color: darkgray;
     }
     #go_home i{
-        font-size: 20px;
-    }
-    .header {
-        padding : 30px;
-        margin: 5px;
-        text-align: center;
-        background-color: pink;
-        color:gray;
+        font-size: 4vw;
+        padding-right: 3vw;
     }
     
     div.desc {
-        padding: 15px;
+        padding: 5%;
+        font-size: 3vw;
         text-align: center;
     }
     
     div.gallery {
-        margin: 5px;
+        margin: 1%;
         border: 1px solid #ccc;
         float: left;
-        width: 31.57%;
+        width: 31%;
+        height: 35vw;
     }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
 
-div.gallery img {
-  width: 100%   ;
-  height: 100px;
-  
-            
-}
+    div.gallery img {
+        width: 100%;
+        height: 75%;          
+    }
 
 
 </style>
