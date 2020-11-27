@@ -1,129 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<style type="text/css">
-    * {
-        box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
-    }
-    body{
-        background-color: #f1f1f1;
-        font-family: "Lucida Console", Courier, monospace;
-    }
-    .header {
-        padding: 5vw;  
-        text-align: center;
-        font-size: 5vw;
-        background-color: pink;
-        color:gray;
-    }
-    #go_home{
-        float : right;
-        text-decoration: none;
-    }
-    #go_home :hover{
-        color : gray;
-    }
-    #go_home :link {
-        color: darkgray;
-    }
-    #go_home:visited{
-        color: darkgray;
-    }
-    #go_home i{
-        font-size: 4vw;
-        padding-right: 3vw;
-    }
-    
-    div.desc {
-        padding: 5%;
-        font-size: 3vw;
-        text-align: center;
-    }
-    
-    div.gallery {
-        margin: 1%;
-        border: 1px solid #ccc;
-        float: left;
-        width: 31%;
-        height: 35vw;
-    }
-
-    div.gallery:hover {
-        border: 1px solid #777;
-    }
-
-    div.gallery img {
-        width: 100%;
-        height: 75%;          
-    }
-
-
-</style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./default.css">
+    <link rel="stylesheet" type="text/css" href="./gallary.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <div class="main_pannel">
-        <div class="header">
-            <a id="go_home" href="./home.html"><i  class="fas fa-home"></i></a>
-            <h1>Gallery</h1>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img1.jpg">
-                <img src="./images/gallery_img1.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Happy Birthday</div>
-        </div>  
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img2.jpg">
-                <img src="./images/gallery_img2.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Regensburg</div>
-        </div>    
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img3.jpg">
-                <img src="./images/gallery_img3.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Regensburg</div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img4.jpg">
-                <img src="./images/gallery_img4.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Peanuts</div>
-        </div>  
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img5.jpg">
-                <img src="./images/gallery_img5.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Gyeongju</div>
-        </div>    
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img6.jpg">
-                <img src="./images/gallery_img6.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Sweet Dessert</div>
-        </div>   
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img7.jpg">
-                <img src="./images/gallery_img7.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Merry Christmas</div>
-        </div>  
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img8.jpg">
-                <img src="./images/gallery_img8.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Jeonju</div>
-        </div>    
-        <div class="gallery">
-            <a target="_blank" href="./images/gallery_img9.jpg">
-                <img src="./images/gallery_img9.jpg" alt="Picture1">
-            </a>
-              <div class="desc">Seoul Forest</div>
-        </div>      
+    <div class="header">
+        <a id="go_home" href="./home.html"><i  class="fas fa-home"></i></a>
+        <h1>Gallery</h1>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img1.jpg">
+            <img src="./images/gallery_img1.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Happy Birthday</div>
     </div>  
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img2.jpg">
+            <img src="./images/gallery_img2.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Regensburg</div>
+    </div>    
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img3.jpg">
+            <img src="./images/gallery_img3.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Regensburg</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img4.jpg">
+            <img src="./images/gallery_img4.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Peanuts</div>
+    </div>  
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img5.jpg">
+            <img src="./images/gallery_img5.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Gyeongju</div>
+    </div>    
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img6.jpg">
+            <img src="./images/gallery_img6.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Sweet Dessert</div>
+    </div>   
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img7.jpg">
+            <img src="./images/gallery_img7.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Merry Christmas</div>
+    </div>  
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img8.jpg">
+            <img src="./images/gallery_img8.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Jeonju</div>
+    </div>    
+    <div class="gallery">
+        <a target="_blank" href="./images/gallery_img9.jpg">
+            <img src="./images/gallery_img9.jpg" alt="Picture1">
+        </a>
+        <div class="desc">Seoul Forest</div>
+    </div>      
 </body>
 </html>

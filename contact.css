@@ -1,0 +1,26 @@
+.contents_pannel {
+    margin-top: 1vw;
+    width: 100%;
+    height: 100vw;
+}
+.td_img{
+    width: 30%;
+} 
+.contact_table1 img{
+    width: 100%;
+} 
+.td_email{
+    font-size: 5vw;
+    font-family: "Lucida Console", Courier, monospace;
+    text-align: center;
+}
+.contact_table2 td{
+    width: 50%;
+}  
+.contact_img:hover{
+    opacity: 0.5;
+}
+.contact_img{
+    width: 90%;
+    padding : 10%;
+}

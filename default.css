@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;     /*실제 width, height 길이 <= padding+border+margin포함 되도록 */
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.header {
+    padding: 5vw; 
+    text-align: center;
+    font-size: 5vw;
+    background-color: pink;
+    color:gray;
+}
+#go_home{
+    float : right;
+    text-decoration: none;
+}
+#go_home :hover{
+    color : gray;
+}
+#go_home :link {
+    color: darkgray;
+}
+#go_home:visited{
+    color: darkgray;
+}
+#go_home i{
+    font-size: 4vw;
+    padding-right: 3vw;
+}
